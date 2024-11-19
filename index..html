@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar with Icons</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<div class="navbar-top">
+    <a class="navbar-brand mx-auto" href="#">SALTY</a>
+
+    <div class="right-icons d-flex align-items-center">
+        <i class="bi bi-search d-none d-lg-block"></i>
+        <i class="bi bi-person d-none d-lg-block"></i>
+        <i class="bi bi-heart d-none d-lg-block"></i>
+        <i class="bi bi-cart d-none d-lg-block"></i>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-main" >
+    <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">All Jewellery</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="earringsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Earrings
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="earringsDropdown">
+                        <li><a class="dropdown-item" href="#">Stud Earrings</a></li>
+                        <li><a class="dropdown-item" href="#">Hoop Earrings</a></li>
+                        <li><a class="dropdown-item" href="#">Drop Earrings</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="ringsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Rings
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="ringsDropdown">
+                        <li><a class="dropdown-item" href="#">Gold Rings</a></li>
+                        <li><a class="dropdown-item" href="#">Silver Rings</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="necklacesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Necklaces
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="necklacesDropdown">
+                        <li><a class="dropdown-item" href="#">Chokers</a></li>
+                        <li><a class="dropdown-item" href="#">Pendant Necklaces</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">Bracelets</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Gift Boxes</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">New Arrivals</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Bundle & Save</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="navbar-secondary">
+    <a class="nav-link" href="#">Women</a>
+    <a class="nav-link" href="#">Men</a>
+</div>
+
+<div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+
+  
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://salty.co.in/cdn/shop/files/Desktop_View_Home_Banner_71a751ec-a01f-46a4-b19d-cd790e25cebc.jpg?v=1731307905&width=1920" class="d-block w-100" alt="Home Banner">
+        </div>
+        <div class="carousel-item">
+            <img src="https://salty.co.in/cdn/shop/files/Daily_essentials_desktop.jpg?v=1723538686&width=1920" class="d-block w-100" alt="Daily Essentials">
+        </div>
+    </div>
+
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="middle">
+    <p>Personalized Jewellery Collections</p>
+    <button id="cart">VIEW PRODUCTS</button>
+    </div>
+    <div class="chain-container">
+    <div class="chain">
+    
+        <img src="https://salty.co.in/cdn/shop/files/BS14209-G_1_Dog.jpg?v=1728404317&width=1800" alt="Primary Image" class="img1">
+        <img src="https://salty.co.in/cdn/shop/files/BS14209-G_1_Hand.jpg?v=1728404317&width=540" alt="Secondary Image" class="img2">
+
+        <p>minimal golden personalized bracelete</p>
+        <p>Rs.699</p>
+        
+        <button class="product">View products</button>
+
+
+
+
+    </div>
+
+
+ <div class="chain2">
+  <img src="https://salty.co.in/cdn/shop/files/Salty-3462365.jpg?v=1729772034&width=1800" alt="" class="img3"> 
+  <img src="https://salty.co.in/cdn/shop/files/Salty-3462245.jpg?v=1729772022&width=540" alt="" class="img4"> 
+  <p>signature charm necklace</p>
+  <p>Rs.599</p>
+  <button class="product">view products</button>
+ 
+</div>
+
+<div class=chain3>
+ <img src="https://salty.co.in/cdn/shop/files/NS14206-G-Quotes_20_3-4_20words_20max_-5.jpg?v=1729251035&width=1800" alt="" class="img5">
+ <img src="https://salty.co.in/cdn/shop/files/NS14206-G-Quotes_20_3-4_20words_20max_-3.jpg?v=1729251036&width=540" alt="" class="img6">
+ <p>Quotes of love language</p>
+ <p>Rs.600</p>
+ <button class="product">view products</button>
+
+ </div>
+ <div class="chain4">
+ <img src="https://salty.co.in/cdn/shop/files/BS14207-G_P_1.jpg?v=1728404528&width=900" alt="" class="img7">
+ <img src="https://salty.co.in/cdn/shop/files/BS14207-G_P_2.jpg?v=1728404529&width=540" alt="" class="img8">
+ <p>golden personalized chic chain</p>
+ <p>Rs.700</p>
+ <button class="product">view products</button>
+
+  
+ </div>  
+ </div>
+ <div class="mid-part">
+    <p>New Arrivals</p>
+    <button id="cart">VIEW PRODUCTS</button>
+    </div>
+    <div class="arrivals">
+    <div class="card-1">
+        <img src="https://salty.co.in/cdn/shop/files/NS13338-G-BLK_5.jpg?v=1728411164&width=1800" alt="" class="neck-1"> 
+        <img src="https://salty.co.in/cdn/shop/files/NS13338-G-BLK_6.jpg?v=1728411163&width=360" alt="" class="neck-2"> 
+        <p>Dark Ombre Gold Necklace</p>
+        <p>Rs.589</p>
+        <button class="view">Add To Cart</button>
+       
+      </div>
+      
+      <div class="card-2">
+       <img src="https://salty.co.in/cdn/shop/files/NS13336-G_3.jpg?v=1728411244&width=1800" alt="" class="neck-3">
+       <img src="https://salty.co.in/cdn/shop/files/NS13336-G_4.jpg?v=1728411245&width=360" alt="" class="neck-4">
+       <p>Gold Charm Reversible Necklace</p>
+       <p>Rs.600</p>
+       <button class="view">Add To Cart</button>
+      </div>
+       <div class="card-3">
+       <img src="https://salty.co.in/cdn/shop/files/NS14011-RG-BLK.jpg?v=1731163202&width=1800" alt="" class="neck-5">
+       <img src="https://salty.co.in/cdn/shop/files/NS14011-RG-BLK_main.jpg?v=1731163202&width=360" alt="" class="neck-6">
+       <p>Black Gemstone Necklace</p>
+       <p>Rs.909</p>
+       <button class="view">Add To Cart</button>
+       </div>
+         <div class="card-4">
+        <img src="https://salty.co.in/cdn/shop/files/BS14011-RG-WHT.jpg?v=1731163211&width=1800" alt="" class="neck-7">
+        <img src="https://salty.co.in/cdn/shop/files/BS14011-RG-WHT_main.jpg?v=1731163211&width=360" alt="" class="neck-8">
+        <p>Moon Rosegold Necklace</p>
+        <p>Rs.700</p>
+        <button class="view">Add To Cart</button>
+       </div>
+          <div class="card-5"> 
+            <img src="https://salty.co.in/cdn/shop/files/BS14011-RG-BLK.jpg?v=1731163245&width=1800" alt="" class="neck-9">
+            <img src="https://salty.co.in/cdn/shop/files/BS14011-RG-BLK_main.jpg?v=1731163245&width=360" alt="" class="neck-10">
+            <p>Gemstone Rosegold Necklace</p>
+            <p>Rs.890</p>
+            <button class="view">Add To Cart</button>
+      
+        
+        </div>   
+       </div> 
+
+       <div class="hampers">
+        <p>Gift Hampers</p>
+        <button id="cart">VIEW PRODUCTS</button>
+        </div>
+        <div class="gifts">
+        <div class="cart-1">
+            <img src="https://salty.co.in/cdn/shop/files/DSC_9527_620e95f6-3cc3-47d4-b9df-308a0cccde0f.jpg?v=1717007092&width=1800" alt="" class="jewellery-1"> 
+            <img src="https://salty.co.in/cdn/shop/files/DSC_9505_62d8a1ca-6ad8-4184-8596-db7b5fca8902.jpg?v=1717007092&width=360" alt="" class="jewellery-2"> 
+            <p>Luxury Jewellery Set</p>
+            <p>Rs.799</p>
+            <button class="view">Add To Cart</button>
+           
+          </div>
+          
+          <div class="cart-2">
+           <img src="https://salty.co.in/cdn/shop/files/Salty-3764028.jpg?v=1729756371&width=1800" alt="" class="jewellery-3">
+           <img src="https://salty.co.in/cdn/shop/files/Lavish-Lavender-Birthday-Jewellery-Gift-Box-for-Her-Salty-165082214.jpg?v=1725344119&width=360" alt="" class="jewellery-4">
+           <p>Lavish Lavendar jewellery</p>
+           <p>Rs.1779</p>
+           <button class="view">Add To Cart</button>
+          </div>
+           <div class="cart-3">
+           <img src="https://salty.co.in/cdn/shop/files/Salty-3764027.jpg?v=1729756531&width=1800" alt="" class="jewellery-5">
+           <img src="https://salty.co.in/cdn/shop/files/Salty-637942.jpg?v=1724331548&width=360" alt="" class="jewellery-6">
+           <p>Bride Tribe Jewellery Gift</p>
+           <p>Rs.1449</p>
+           <button class="view">Add To Cart</button>
+           </div>
+             <div class="cart-4">
+            <img src="https://salty.co.in/cdn/shop/files/Salty-3260354.jpg?v=1722885150&width=1800" alt="" class="jewellery-7">
+            <img src="https://salty.co.in/cdn/shop/files/Salty-3260371.jpg?v=1722885149&width=360" alt="" class="jewellery-8">
+            <p>Midnight Clover Jewellery Gift</p>
+            <p>Rs.999</p>
+            <button class="view">Add To Cart</button>
+           </div>
+              <div class="cart-5"> 
+                <img src="https://salty.co.in/cdn/shop/files/IMG_0234.jpg?v=1729769829&width=1800" alt="" class="jewellery-9">
+                <img src="https://salty.co.in/cdn/shop/files/DivineBox_product.jpg?v=1729685192&width=360" alt="" class="jewellery-10">
+                <p>Divine Diwali Jewellery Gift </p>
+                <p>Rs.1299</p>
+                <button class="view">Add To Cart</button>
+          
+            
+            </div>   
+           </div> 
+           <h3>Shop What You Love</h3>
+           <div class="container">
+            <div class="blur-image">
+                <img src="https://salty.co.in/cdn/shop/files/Salty-2654943_copy_8c4310aa-8a4c-4e0b-a777-9b1b8bd4c3c3.jpg?v=1722064616&width=540" alt="Zoom and Blur Image" class="blur-1">
+                <p>Bracelets</p>
+            </div>
+            <div class="blur-image1">
+                <img src="https://salty.co.in/cdn/shop/files/Salty-2655086_2b824ffa-e3e5-46ad-a7b7-d342a6f1f81e.jpg?v=1722064863&width=540" alt="Zoom and Blur Image" class="blur-2">
+                <p>Necklace</p>
+            </div>
+            <div class="blur-image2">
+                <img src="https://salty.co.in/cdn/shop/files/Salty-2655075_copy_1_cb1bd613-5afe-4cb0-a863-dbb1b795637a.jpg?v=1722064863&width=540" alt="Zoom and Blur Image" class="blur-3">
+                <p>Rings</p>
+            </div>
+            <div class="blur-image3">
+                <img src="https://salty.co.in/cdn/shop/files/Salty-2654806_2_cee86225-3f48-46bc-8509-9feab4971f7c.jpg?v=1722064866&width=540" alt="Zoom and Blur Image" class="blur-4">
+                <p>Earrings</p>
+            </div>
+        </div>
+
+
+<div class="mens">
+    <p>Mens Jewellery</p>
+    <button id="cart">VIEW PRODUCTS</button>
+    </div>
+    <div class="men-jewellery">
+    <div class="mens-1">
+        <img src="https://salty.co.in/cdn/shop/files/Y2K-Punk-Star-Pendant-Black-Crystal-Necklace-for-Women-Double-Chain-Beads-Necklace-Choker-Stainless-Steel.jpg_Q90.jpg__1.webp?v=1683296508&width=1800" alt="" class="boy-1"> 
+        <img src="https://salty.co.in/cdn/shop/files/preview_images/76061736e9d94e439af9d5c0d999d7cb.thumbnail.0000000000.jpg?v=1719912861&width=360" alt="" class="boy-2"> 
+        <p>Luxury Jewellery Set</p>
+        <p>Rs.799</p>
+        <button class="view">Add To Cart</button>
+       
+      </div>
+      
+      <div class="mens-2">
+       <img src="https://salty.co.in/cdn/shop/files/ElectrostormShimmerChain_1.jpg?v=1689058886&width=1800" alt="" class="boy-3">
+       <img src="https://salty.co.in/cdn/shop/files/Avrupa-ve-amerikan-moda-iki-renkli-y-ld-r-m-kolye-Trendy-erkek-Hip-hop-ki_1.webp?v=1707500910&width=360" alt="" class="boy-4">
+       <p>Lavish Lavendar jewellery</p>
+       <p>Rs.1779</p>
+       <button class="view">Add To Cart</button>
+      </div>
+       <div class="mens-3">
+       <img src="https://salty.co.in/cdn/shop/files/3af0ae50fca77d8188147b20de06e9a0.webp?v=1683379897&width=1800" alt="" class="boy-5">
+       <img src="https://salty.co.in/cdn/shop/files/8d69dad815ba0645928ed2fe5a0e603f.webp?v=1683379898&width=360" alt="" class="boy-6">
+       <p>Bride Tribe Jewellery Gift</p>
+       <p>Rs.1449</p>
+       <button class="view">Add To Cart</button>
+       </div>
+         <div class="mens-4">
+        <img src="https://salty.co.in/cdn/shop/files/HTB13gurXHj1gK0jSZFuq6ArHpXaj.jpg_960x960_4ef15b91-c86e-488a-b681-8ed54094b51f.webp?v=1693764923&width=1800" alt="" class="boy-7">
+        <img src="https://salty.co.in/cdn/shop/files/H4523dd726a674922924cd138b6163975t.jpg_960x960_d4bb28ca-947f-428a-832c-fe8684b13ec3.webp?v=1693764923&width=360" alt="" class="boy-8">
+        <p>Midnight Clover Jewellery Gift</p>
+        <p>Rs.999</p>
+        <button class="view">Add To Cart</button>
+       </div>
+          <div class="mens-5"> 
+            <img src="https://salty.co.in/cdn/shop/files/Copyof_-04_dc950a3c-afcc-4827-9b26-e6428ad3a217.jpg?v=1710762307&width=1800" alt="" class="boy-9">
+            <img src="https://salty.co.in/cdn/shop/files/Copyof_-08_c0a2855d-0469-4bb3-aa10-c535e1bd76ce.jpg?v=1710762308&width=360" alt="" class="boy-10">
+            <p>Divine Diwali Jewellery Gift </p>
+            <p>Rs.1299</p>
+            <button class="view">Add To Cart</button>
+      
+        
+        </div>   
+       </div> 
+       <h3>Shop By Style</h3>
+       <div class="box">
+        <div class="scar-image1">
+            <img src="https://salty.co.in/cdn/shop/files/Salty-2655172_copy.jpg?v=1722538601&width=540" alt="Zoom and Blur Image" class="scar-1">
+            <p>Rings</p>
+        </div>
+        <div class="scar-image2">
+            <img src="https://salty.co.in/cdn/shop/files/Clover_2aa7b6fc-b256-4fc4-9179-ceef658b9ce6.jpg?v=1722064871&width=540" alt="Zoom and Blur Image" class="scar-2">
+            <p>Clover</p>
+        </div>
+        <div class="scar-image3">
+            <img src="https://salty.co.in/cdn/shop/files/Enamel_295c6871-df22-46d5-a41d-a7d055444ddc.jpg?v=1722064870&width=540" alt="Zoom and Blur Image" class="scar-3">
+            <p>Enamel</p>
+        </div>
+        <div class="scar-image4">
+            <img src="https://salty.co.in/cdn/shop/files/Chunky_bc104ea5-88eb-4733-bb1c-4e407d391720.jpg?v=1722064871&width=540" alt="Zoom and Blur Image" class="scar-4">
+            <p>Chunky</p>
+        </div>
+    </div>
+    <div class="feature">
+        <p>Feature Collection</p>
+        <button id="cart">VIEW PRODUCTS</button>
+        </div>
+        <div class="collections">
+            <div class="item-1">
+            
+                <img src="https://salty.co.in/cdn/shop/files/AllThatHeNeedsPersonalisedGiftHamperforHim_1_4257a4e8-3234-4296-8508-88b1214c4132.jpg?v=1706781960&width=1800" alt="Primary Image" class="pic-1">
+                <img src="https://salty.co.in/cdn/shop/files/AllThatHeNeedsPersonalisedGiftHamperforHim_2_befb39f0-45b0-4849-9cc3-d41a92e5d796.jpg?v=1706781960&width=540" alt="Secondary Image" class="pic-2">
+        
+                <p>Personalized Gift Set</p>
+                <p>Rs.1559</p>
+                
+                <button class="view">Add To Cart</button>
+        
+            </div>
+        
+        
+         <div class="item-2">
+          <img src="https://salty.co.in/cdn/shop/files/3_3ed1a234-7b68-40ff-a804-7e860b3dd0e2.png?v=1728398274&width=540" alt="" class="pic-3"> 
+           
+          <p>Alpha Edge Gift BoX</p>
+          <p>Rs.849</p>
+          <button class="view">Add To Cart</button>
+         
+        </div>
+        
+        <div class="item-3">
+         <img src="https://salty.co.in/cdn/shop/files/3_20_1.png?v=1728398254&width=540" alt="" class="pic-4">
+        
+         <p>Alpha Luxe Set</p>
+         <p>Rs.849</p>
+         <button class="view">Add To Cart</button>
+        
+         </div>
+         <div class="item-4">
+         <img src="https://salty.co.in/cdn/shop/files/Salty-3562586.jpg?v=1726809875&width=1800" alt="" class="pic-5">
+         <img src="https://salty.co.in/cdn/shop/files/Salty-3562598.jpg?v=1726809875&width=540" alt="" class="pic-6">
+         <p> Bling For The King Box</p>
+         <p>Rs:699 </p>
+         <button class="view">Add To Cart</button>
+        
+        </div>  
+         </div>
+
+         <div class="Testimonals"> 
+         <div class="testimonal-section1">
+            <p class="stars">★★★★★</p>
+            <p>
+              Pretty good stuff, Salty! They are helpful and go the extra mile to ensure customer satisfaction. 
+              It's refreshing to find a brand that truly values its customers.
+            </p>
+
+            <div  class="profile">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8xis_ZrPO09a6VYYt7fjUrG9fTxgeU4F2dg&s" alt="">
+           <p>Dixtia Patel</p>
+           <p>Fashion Infulencer</p>
+        </div>
+         </div>
+         <div class="testimonal-section2">
+            <p class="stars">★★★★★</p>
+            <p>
+              Omg! Everything is just superb and high quality, can’t wait to try more. They are perfect for lounging 
+              on the beach or by the pool. I wore those chains and studs on my Goa trip.
+            </p>
+
+            <div class="profile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrXHTt8ag3uqmi6LLee-q73gb376ozkCQfaw&s" alt="">
+            <p>Akhil Jackson</p>
+            <p>Content Creator</p>
+         </div>
+         </div>
+         <div class="testimonal-section3">
+            <p class="stars">★★★★★</p>
+            <p>
+             I'm obsessed with the quality of the accessories from Salty. The materials used are durable and 
+             long-lasting! And also they have great customer support.
+          </p>
+
+            <div class="profile"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqogINpYjHgxrTVZvu-zE2Zk2__aVe1WfLw&s" alt="">
+            <p>Laakshi Pathak</p>
+            <p>Makeup Artist</p>
+         </div>
+         </div>
+         </div> 
+
+         <div class="set">
+            <p>Jewellery set</p>
+            <button id="cart">VIEW PRODUCTS</button>
+            </div>
+            <div class="j-set">
+            <div class="ornament-1">
+                <img src="https://salty.co.in/cdn/shop/files/IMG_1684.jpg?v=1710249963&width=1800" alt="" class="orna-1"> 
+                <img src="https://salty.co.in/cdn/shop/files/SetofEternalBraceletAndRings_b4b97c44-9e6c-4a7d-9698-050ea36302b8.jpg?v=1710003528&width=360" alt="" class="orna-2"> 
+                <p>Luxury Jewellery Set</p>
+                <p>Rs.799</p>
+                <button class="view">Add To Cart</button>
+               
+              </div>
+              
+              <div class="ornament-2">
+               <img src="https://salty.co.in/cdn/shop/files/BR2C3266_1.jpg?v=1729338810&width=1800" alt="" class="orna-3">
+               <img src="https://salty.co.in/cdn/shop/files/BR2C3266_2.jpg?v=1729338810&width=360" alt="" class="orna-4">
+               <p>Lavish Lavendar jewellery</p>
+               <p>Rs.1779</p>
+               <button class="view">Add To Cart</button>
+              </div>
+               <div class="ornament-3">
+               <img src="https://salty.co.in/cdn/shop/files/KiaraAdvaniGreenEmeraldNecklaceandEarringsSet_2.png?v=1686730737&width=1800" alt="" class="orna-5">
+               <img src="https://salty.co.in/cdn/shop/files/KiaraAdvaniGreenEmeraldNecklaceandEarringsSet_2.png?v=1686730737&width=360" alt="" class="orna-6">
+               <p>Bride Tribe Jewellery Gift</p>
+               <p>Rs.1449</p>
+               <button class="view">Add To Cart</button>
+               </div>
+                 <div class="ornament-4">
+                <img src="https://salty.co.in/cdn/shop/files/ExclusiveStonesBraceletandRingSet_10.jpg?v=1714135840&width=1800" alt="" class="orna-7">
+                <img src="https://salty.co.in/cdn/shop/files/ExclusiveStonesBraceletandRingSet_6.jpg?v=1714135840&width=360" alt="" class="orna-8">
+                <p>Midnight Clover Jewellery Gift</p>
+                <p>Rs.999</p>
+                <button class="view">Add To Cart</button>
+               </div>
+                  <div class="ornament-5"> 
+                    <img src="https://salty.co.in/cdn/shop/files/BUNDLE-06-SKU1.jpg?v=1730118357&width=1800" alt="" class="orna-9">
+                    <img src="https://salty.co.in/cdn/shop/files/Set_201_20-_20999.jpg?v=1730118357&width=360" alt="" class="orna-10">
+                    <p>Divine Diwali Jewellery Gift </p>
+                    <p>Rs.1299</p>
+                    <button class="view">Add To Cart</button>
+              
+                
+                </div>   
+               </div> 
+      <div>
+        <img src="../saltyimg.png" alt="">
+      </div>
+      <div>
+        <img  src="../startup.png" alt="">
+      </div>
+      <div class="content">
+        <h4>Best Fashion Jewellery Brand in India</h4>
+        <p>Welcome to Salty, India's fastest growing jewellery brand. With our unwavering commitment to excellence, we have established ourselves as a trusted name in the industry. Over the past year alone, we have successfully delivered an impressive 150,000 orders to satisfied customers across the country.</p>
+
+          <p> Experience the finest fashion jewelry brand in India, Salty. Best website to buy fashion jewellery online, showcasing the newest styles in women's jewelry. Our selection includes chic, reasonably priced fashion jewellery for women that are appropriate for any setting. Get today and use Salty's gorgeous designs to uplift your look.</p> 
+            
+          <p>  As a testament to our credibility, we are proud to share that our brand has been supported and funded by the Government of India. This endorsement reflects the quality and reliability of our products and services.</p>
+            
+           <p> At Salty, we specialize in crafting high-quality jewellery for both men and women. Our exquisite collection showcases a wide range of designs, ensuring that there is something for everyone. From timeless classics to contemporary pieces, we offer jewellery that caters to diverse tastes and preferences.</p>
+            
+           <p> We prioritize customer satisfaction, which is why we offer a hassle-free return and exchange policy within 7 days of purchase. Additionally, our fast shipping ensures that you receive your order promptly, allowing you to enjoy your new jewellery without delay.
+            
+          <p>  Experience the elegance and craftsmanship of Salty. Shop with us today and elevate your style with our stunning jewellery pieces.
+            
+            </p>
+        
+      </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <h3>Frequently asked questions</h3>
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+             How should we store artificial jewellery so that long lasting
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">To maintain the lustre and polish of artificial jewellery, store it in airtight, cloth-lined boxes that prevent direct contact with air. Keep different jewels in separate compartments to avoid marks caused by brushing. Salty also offers Micro-fiber Pouch, which keeps your jewellery safe and protects shine
+
+                .</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Things to keep in mind jewellery buying in online
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample ">
+            <div class="accordion-body">When buying designer jewellery online, the design is important, but so is the legitimacy of the online store. Always look for authentic pictures, brand's credibility and availability of COD option. Salty is backed by Startup India, Government of India
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Do you have exchange/return policy?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Not Lovin' It? We've Got Your Back! We offer 7 days hassle-free Returns and exchange guaranteed, you can visit our refunds policy for more details
+
+                </div>
+          </div>
+        </div>
+      </div>
+         <div class="footer">
+            <div class="footer-right">
+                <p>All Jewellery</p>
+                <p>Bracelets</p>
+                <p>Necklace</p>
+                <p>Earrings</p>
+                <p>Rings</p>
+                <p>Gift Boxes</p>
+                <p>New Arrivals</p>
+                <p>Bundle&Save</p>
+                
+            </div>
+            <div class="review">
+                <p>Review & Details</p>
+                <p>Offers and Deals</p>
+                <p>Happy Customers Gallery</p>
+                <p>Customers Review</p>
+            </div>
+            <div class="community">
+                <p>Join Our Community</p>
+                <p>salty Afflicate Program</p>
+                <p>Fashion Blog</p>
+                <p>Just For Fun</p>
+            </div>
+         </div>
+         <div class="footer-bottom">
+         <div class="sing-up">
+         <form>
+            <p>SIGN UP AND SAVE</p>
+            <P>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</P>
+            <input placeholder="Enter Your Email " required>
+
+         </form>
+         <i class="fa-brands fa-instagram"></i>
+         <i class="fa-brands fa-twitter"></i>
+         <i class="fa-brands fa-facebook"></i>
+         <i class="fa-brands fa-youtube"></i>
+         <i class="fa-brands fa-linkedin-in"></i>
+         Contact Us
+<p>Salty E-Commerce Private Limited</p>
+
+    <p>queries@salty.co.in</p>
+
+    Whatsapp Us
+
+   <p>Pamposh Enclave, GK-1 Delhi - 110048</p>
+        </div>
+        <div class="about">
+           <p> About us</p>
+           <p>Privacy Policy</p>
+           <p> Terms of Service</p>
+           <p>Refund policy</p>
+           <p>FAQ'S</p>
+           <p>Shipping Policy</p>
+           <p>Track Order</p>
+        </div>
+        <div>
+        <p>Womens Jewellery by Colour:</p>
+
+<p>
+Gold Colour Jewellery| Silver Colour Jewellery |Yellow Colour Jewellery |White Colour Jewellery| Pink Colour Jewellery |Purple Colour Jewellery |
+Brown Colour Jewellery| Red Colour Jewellery |Green Colour Jewellery |Rose Gold Colour Jewellery |Multi - Colour Jewellery| Black Colour Jewellery |Copper Colour Jewellery |Blue Colour Jewellery |Beige Colour Jewellery |Grey Colour Jewellery |Bronze Colour Jewellery| Turquoise Colour Jewellery
+
+</div>
+        </p>
+        <div class="center-content">
+            <img src="../payment.png" alt="Payment Methods">
+            <p>@copy;2024 Salty Accessories All Rights Are Reserved</p>
+          </div>
+        
+
+    </div>
+         
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

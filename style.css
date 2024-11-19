@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    max-width: 100%;
+}
+
+.navbar-top {
+    background-color: #b7a1d6;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-top .navbar-brand {
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-main {
+    background-color: #b7a1d6;
+    padding: 0.5rem 0;
+}
+
+.nav-link {
+    color: #fff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-menu {
+    background-color: white;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+.dropdown-item:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.right-icons i {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.navbar-secondary {
+    background-color: #b7a1d6;
+    padding: 0.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-secondary .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.middle {
+    
+    font-size:2rem;
+    text-align: center;
+    margin: 40px;
+    
+}
+#cart{
+    font-size: 1rem; 
+    
+ } 
+
+ 
+
+.chain-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: space-around;
+}
+.chain,.chain2,.chain3,.chain4{
+    width:350px;
+    text-align: center;
+
+}
+.chain img,.chain2 img,.chain3 img,.chain4 img{
+    width:100%;
+    transition: opacity 3s ease;
+
+}
+.chain .img2, .chain2 .img4,.chain3 .img6,.chain4 .img8{
+    display:none;
+}
+  .chain:hover .img1, .chain2:hover .img3,.chain3:hover .img5,.chain4:hover .img7{
+    display: none; 
+    
+
+ } 
+.chain:hover .img2, .chain2:hover .img4, .chain3:hover .img6, .chain4:hover .img8 {
+    display: block; 
+} 
+.product{
+    background-color: #b7a1d6;
+    padding: 0px 60px;
+}
+button:hover {
+    background-color: white;
+}
+.mid-part{
+    font-size:2rem;
+    text-align: center;
+    margin: 40px;
+}
+
+.arrivals{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-around;
+}
+.card-1  ,.card-2 ,.card-3,.card-4,.card-5{
+    width: 280px;
+    text-align: center;
+}
+.card-1  img,.card-2 img,.card-3 img,.card-4 img,.card-5 img{
+    width: 100%;
+    transition: opacity 3s ease;
+}
+.card-1 .neck-2,.card-2 .neck-4,.card-3 .neck-6,.card-4 .neck-8,.card-5 .neck-10
+{
+display: none;
+}
+.card-1:hover .neck-1,.card-2:hover .neck-3,.card-3:hover .neck-5,.card-4:hover .neck-7,.card-5:hover .neck-9
+{
+display: none;
+}
+.card-1:hover .neck-2,.card-2:hover .neck-4,.card-3:hover .neck-6,.card-4:hover .neck-8,.card-5:hover .neck-10
+{
+display: block;
+}
+.hampers{
+    font-size:2rem;
+    text-align: center;
+    margin: 40px;
+}
+
+.gifts{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+justify-content: space-around;
+}
+.cart-1  ,.cart-2 ,.cart-3,.cart-4,.cart-5{
+    width: 280px;
+    text-align: center;
+}
+.cart-1  img,.cart-2 img,.cart-3 img,.cart-4 img,.cart-5 img{
+    width: 100%;
+    transition: opacity 3s ease;
+}
+.cart-1 .jewellery-2,.cart-2 .jewellery-4,.cart-3 .jewellery-6,.cart-4 .jewellery-8,.cart-5 .jewellery-10
+{
+display: none;
+}
+.cart-1:hover .jewellery-1,.cart-2:hover .jewellery-3,.cart-3:hover .jewellery-5,.cart-4:hover .jewellery-7,.cart-5:hover .jewellery-9
+{
+display: none;
+}
+.cart-1:hover .jewellery-2,.cart-2:hover .jewellery-4,.cart-3:hover .jewellery-6,.cart-4:hover .jewellery-8,.cart-5:hover .jewellery-10
+{
+display: block;
+}
+h3{
+    text-align: center;
+    margin: 40px;
+}
+.container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    gap: 30px;
+}
+
+.blur-image, .blur-image1,.blur-image2,.blur-image3{
+    width: 300px; 
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative; 
+     
+}
+
+.blur-image img ,.blur-image1 img,.blur-image2 img,.blur-image3 img{
+    width: 100%; 
+    
+    
+    transition: transform 0.5s ease, filter 0.5s ease; 
+}
+
+.blur-image:hover img ,.blur-image1:hover img,.blur-image2:hover img,.blur-image3:hover img {
+    filter: blur(3px); 
+    transform: scale(1.2); 
+}
+.blur-image >p,.blur-image1 >p,.blur-image2 >p ,.blur-image3 >p{
+    position: absolute;
+    text-align: center;
+     bottom: 2%; 
+    left: 50%;
+    font-size: 1.6rem;
+    color: white;
+    transform: translate(-50%,-50%);
+    
+}
+.mens{
+    font-size:2rem;
+    text-align: center;
+    margin: 40px;
+}
+.men-jewellery{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+justify-content: space-around;
+}
+.mens-1  ,.mens-2 ,.mens-3,.mens-4,.mens-5{
+    width: 280px;
+    text-align: center;
+}
+.mens-1  img,.mens-2 img,.mens-3 img,.mens-4 img,.mens-5 img{
+    width: 100%;
+    transition: opacity 3s ease;
+}
+.mens-1 .boy-2,.mens-2 .boy-4,.mens-3 .boy-6,.mens-4 .boy-8,.mens-5 .boy-10
+{
+display: none;
+}
+.mens-1:hover .boy-1,.mens-2:hover .boy-3,.mens-3:hover .boy-5,.mens-4:hover .boy-7,.mens-5:hover .boy-9
+{
+display: none;
+}
+.mens-1:hover .boy-2,.mens-2:hover .boy-4,.mens-3:hover .boy-6,.mens-4:hover .boy-8,.cart-5:hover .boy-10
+{
+display: block;
+}
+.box {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    gap: 30px;
+}
+
+.scar-image1, .scar-image2,.scar-image3,.scar-image4{
+    width: 300px; 
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative; 
+     
+}
+
+.scar-image1 img ,.scar-image2 img,.scar-image3 img,.scar-image4 img{
+    width: 100%; 
+    
+    
+    transition: transform 0.5s ease, filter 0.5s ease; 
+}
+
+.scar-image1:hover img ,.scar-image2:hover img,.scar-image3:hover img,.scar-image4:hover img {
+    filter: blur(3px); 
+    transform: scale(1.2); 
+}
+.scar-image1 >p,.scar-image2 >p,.scar-image3 >p ,.scar-image4 >p{
+    position: absolute;
+    text-align: center;
+     bottom: 2%; 
+    left: 50%;
+    font-size: 1.6rem;
+    color: white;
+    transform: translate(-50%,-50%);
+    
+}
+.feature{
+    font-size:2rem;
+    text-align: center;
+    margin: 40px;
+}
+.collections{
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-around;
+}
+.item-1,.item-2,.item-3,.item-4{
+    width:350px;
+    text-align: center;
+
+}
+.item-1 img,.item-2 img,.item-3 img,.item-4 img{
+    width:100%;
+    transition: opacity 3s ease;
+
+}
+.item-1 .pic-2, .item-4 .pic-6{
+    display:none;
+}
+  .item-1:hover .pic-1,.item-4:hover .pic-5{
+    display: none; 
+    
+
+ } 
+.item-1:hover .pic-2,  .item-4:hover .pic-6 {
+    display: block; 
+} 
+.Testimonals{
+   background-color: #b7a1d688;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    
+    
+}
+
+.testimonal-section1, .testimonal-section2, .testimonal-section3{
+    
+    background-color:white;
+    text-align: center;
+     
+}
+
+ .testimonal-section1,.testimonal-section2,.testimonal-section3{
+    margin: 10px;
+    width: 430px;
+    height: 450px;
+} 
+.profile img{
+    width: 150px;
+    height: 150px;
+}
+.profile{
+    text-align: center;
+    font-size: 0.8rem;
+} 
+.set{
+    font-size:2rem;
+    text-align: center;
+    margin: 40px;
+}
+.j-set{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+justify-content: space-around;
+}
+.ornament-1  ,.ornament-2 ,.ornament-3,.ornament-4,.ornament-5{
+    width: 280px;
+    text-align: center;
+}
+.ornament-1  img,.ornament-2 img,.ornament-3 img,.ornament-4 img,.ornament-5 img{
+    width: 100%;
+    transition: opacity 3s ease;
+}
+.ornament-1 .orna-2,.ornament-2 .orna-4,.ornament-3 .orna-6,.ornament-4 .orna-8,.ornament-5 .orna-10
+{
+display: none;
+}
+.ornament-1:hover .orna-1,.ornament-2:hover .orna-3,.ornament-3:hover .orna-5,.ornament-4:hover .orna-7,.ornament-5:hover .orna-9
+{
+display: none;
+}
+.ornament-1:hover .orna-2,.ornament-2:hover .orna-4,.ornament-3:hover .orna-6,.ornament-4:hover .orna-8,.ornament-5:hover .orna-10
+{
+display: block;
+}
+.view{
+    background-color: #b7a1d6;
+    padding: 0px 60px;
+}
+.content h4 {
+    text-align: center;
+}
+.footer{
+    margin-top: 30px;
+    background-color: #b7a1d6a2;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+input {
+    border: none;           
+    border-bottom: 2px solid #000; 
+    outline: none;
+    background: transparent; 
+    padding: 5px 0;         
+    font-size: 1rem;       
+}
+.footer-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #b7a1d6a2 ;
+    gap: 30px;
+    
+}
+.center-content {
+    
+    text-align: center;
+
+}
